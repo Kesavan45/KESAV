@@ -9,7 +9,7 @@ for(i=0;i<n;i++) {
 a[i]=in.nextInt();
 }
 k=in.nextInt();
-for(i=0;i<a.length;i++) {
+for(i=0;i<a.length-k;i++) {
 max=a[i];
 for(j=1;j<k;j++) {
 if(a[i+j] > max)
