@@ -1,0 +1,82 @@
+import java.util.*;
+ 
+class Main
+
+{
+
+  public static void main (String args[])
+  {
+
+    int n, i, j, c = 1, m = 1,k=0,u=0;
+    
+Scanner in = new Scanner (System.in);
+  
+    n = in.nextInt ();
+
+    for (i = 1; i <= n; i++)
+      {
+	
+for (j = 1; j <= m; j++)
+	  {
+	   
+ if (j % 2 == 0)
+	      {
+
+		System.out.print ("*");
+
+	      }
+
+	    else
+	      {
+
+		System.out.print (c);
+
+		c++;
+	      }
+
+	      if(i==n && j==1) {
+	
+          k=c-1;
+	     
+ }
+
+	
+  }
+
+	
+m = m + 2;
+
+	System.out.println ();
+
+      }
+     
+ m=m-2;
+    
+  for(i=n;i>0;i--) {
+ 
+         for(j=1;j<=m;j++) {
+   
+           if(j%2==0) {
+     
+             System.out.print("*");
+   
+           }else 
+{
+ 
+                 System.out.print(k);
+
+                            k++;
+              }
+ 
+         }
+ 
+         System.out.println();
+
+          m=m-2;
+   
+       k=k-j+1;
+   
+   }
+
+  }
+}
