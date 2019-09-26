@@ -1,6 +1,6 @@
 import java.util.*
 class z {
-public static void main9string args[]) {
+public static void main(String args[]) {
 String a;
 Scanner t=new Scanner(System.in);
 a=t.nextLine(); 
