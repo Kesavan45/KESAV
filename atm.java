@@ -75,7 +75,7 @@ String h=in.nextLine();
 if(h.equals(pin)) {
 System.out.println("Enter your new pin");
 String o=in.nextLine();
-pin=pin.replace(o,pin);
+pin=pin.replaceAll(o,pin);
 System.out.println("Pin code has been successfully changed");
 }
 else {
