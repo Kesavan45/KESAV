@@ -46,7 +46,7 @@ if(x<=balance) {
 System.out.println("Enter the pin");
 in.nextLine();
 String y=in.nextLine();
-if(y.equals(pin) && ex!=3) {
+if(y.equals(pin)) {
 withdraw[wkey]=x;
 balance-=x;
 System.out.println("You have successfully withdraw the amount");
@@ -73,7 +73,7 @@ String h=in.nextLine();
 if(h.equals(pin)) {
 System.out.println("Enter your new pin");
 String o=in.nextLine();
-pin=pin.replaceAll(o,pin);
+pin=pin.replaceAll(h,o);
 System.out.println("Pin code has been successfully changed");
 }
 else {
