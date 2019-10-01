@@ -2,7 +2,6 @@ import java.util.*;
 class atm {
 public static void main(String args[]) {
 Scanner in=new Scanner(System.in);
-boolean isAccblock=false;
 int dkey=0,wkey=0,i,dl=0,wl=0,ex=0;
 int balance=0;
 String pin="0000";
