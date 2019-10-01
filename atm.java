@@ -2,14 +2,13 @@ import java.util.*;
 class atm {
 public static void main(String args[]) {
 Scanner in=new Scanner(System.in);
-int no=in.nextInt();
 boolean isAccblock=false;
 int dkey=0,wkey=0,i,dl=0,wl=0,ex=0;
 int balance=0;
 String pin="0000";
 int[] deposit=new int[100];
 int[] withdraw=new int[100];
-while(no==1) {
+while(1==1) {
 if(ex==3) {
 System.out.println("Account has been  blocked");
 break;
